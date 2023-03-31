@@ -5,10 +5,35 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F8F8F8;
-  font-size: 16px;
+  background-color: #f8f8f8;
+  font-size: 15px;
   transition: 0.5s;
-  background: url(./component/asset/bgr_body.jpg) repeat-x 0 0 #FFF;
+  background: url(./component/asset/bgr_body.jpg) repeat-x 0 0 #fff;
+}
+.left {
+  float: right;
+}
+.stack h1 {
+  font-size: 5rem;
+}
+.stack p {
+  font-size: 1.65rem;
+  color: #0071dc;
+}
+.stack span {
+  font-size: 1.65rem;
+}
+.menu {
+  background: url(./component/asset/bgr_menu2.jpg) repeat-x 0 0;
+}
+.sf-menu {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1000;
+  padding: 10px 10px;
 }
 .fis {
   min-height: 38vh;
@@ -179,9 +204,12 @@ code {
   text-indent: -100%;
   opacity: 3;
 }
+.header {
+  background: #d4dfe6;
+  margin-top: 20px;
+}
 .logo {
-  height: 40px;
-  margin: 5px 10px;
+  height: 140px;
 }
 .sty {
   margin-top: 9px;
